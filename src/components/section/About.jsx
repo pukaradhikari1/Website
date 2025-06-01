@@ -10,6 +10,11 @@ export const About = () => {
                 <div className="max-w-3xl mx-auto px-4">
                     <h2 className=" text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent  text-center">About Me</h2>
                     <div className="glass rounded-xl p-8 border-white/10 hover:-translate-y-1 transistion-all">
+
+
+                        <img src="/logo.jpg" alt="Profile" class="w-20 h-20 rounded-full overflow-hidden border-4 border-white mb-4 w-full h-full object-cover" />
+
+
                         <p className="text-gray-300 mb-6">
                             Student at Kathmandu University School Of Engineering<br />
                             Computer Engineering<br />
