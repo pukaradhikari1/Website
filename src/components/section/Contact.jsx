@@ -27,10 +27,10 @@ export const Contact = () => {
     };
 
     return (
-        <section id="contact" className=" min-h-screen flex items-center justify-center py-20">
+        <section id="contact" className=" mmin-h-screen flex items-center justify-center py-20 px-4">
             <RevealOnScroll>
-                <div className="px-4 w-150 ">
-                    <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-orange-500 bg-clip-text text-transparent  text-center">Get In touch</h2>
+                <div className="w-full max-w-md mx-auto">
+                    <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-orange-500 bg-clip-text text-transparent  text-center">Get In Touch</h2>
                     <form action="" className="space-y-6 " onSubmit={handleSubmit}>
                         <div className="relative">
                             <input type="text" id="name" name="name" required
