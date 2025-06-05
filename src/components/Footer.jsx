@@ -2,9 +2,9 @@ export const Footer = () => {
 
 
     return (
-        <footer class="z-40 bg-[rgba(10,10,10,0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
+        <footer className="z-40 bg-[rgba(10,10,10,0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
 
-            <div class="flex justify-center space-x-5">
+            <div className="flex justify-center space-x-5">
                 <a href="https://www.facebook.com/share/1Ei1cb8CYN/" target="_blank" rel="noopener noreferrer">
                     <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png" />
                 </a>
@@ -19,7 +19,7 @@ export const Footer = () => {
                     <img src="https://img.icons8.com/fluent/30/000000/github.png" />
                 </a>
             </div>
-            <p class="text-center text-gray-100 font-medium">&copy; 2025 Pukar Adhikari. All rights reservered.</p>
+            <p className="text-center text-gray-100 font-medium">&copy; 2025 Pukar Adhikari. All rights reservered.</p>
         </footer>
     )
 }
