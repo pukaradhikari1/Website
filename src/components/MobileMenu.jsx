@@ -1,4 +1,5 @@
 import { useEffect } from "react"
+import { Link } from "react-router-dom";
 
 export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
 
@@ -42,6 +43,11 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
                 `} >
                 Contact
             </a>
+            <Link to="/blogs" onClick={() => setMenuOpen(false)} className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
+                ${menuOpen ? " opacity-100 translate-y-0" : "opacity-0 translate-y-5"}
+                `}  >
+                Blog
+            </Link>
         </div>
     );
 

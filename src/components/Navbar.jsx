@@ -1,4 +1,5 @@
 import { useEffect } from "react"
+import { Link } from "react-router-dom";
 
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
 
@@ -27,9 +28,9 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
                     <a href="#projects" className="text-gray-300 hover:text-white transition-colors" >
                         Projects
                     </a>
-                    <a href="#blogs" className="text-gray-300 hover:text-white transition-colors" >
+                    <Link to="/blogs" className="text-gray-300 hover:text-white transition-colors" >
                         Blog
-                    </a>
+                    </Link>
                     <a href="#contact" className="text-gray-300 hover:text-white transition-colors" >
                         Contact
                     </a>
