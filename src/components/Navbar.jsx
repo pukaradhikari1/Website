@@ -12,9 +12,11 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
     return <nav className="fixed top-0 w-full z-40 bg-[rgba(10,10,10,0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
         <div className="max-w-5xl mx-auto px-4">
             <div className="flex justify-between items-center h-16">
-                <a href="/" className="block max-w-[120px] sm:max-w-[150px]">
-                    <img src="/loogo.jpg" alt="Logo" className="w-full h-auto object-contain" />
+                <a href="#home" className="font-mono text-xl font-bold ">
+
+                    <span className=" bg-gradient-to-r from-gray-600 to-green-400 bg-clip-text text-transparent ">pukar</span><span className="bg-gradient-to-r from-green-500 to-gray-600 bg-clip-text text-transparent">.adhikari</span>
                 </a>
+
                 <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden" onClick={() => setMenuOpen((prev) => !prev)}>
                     &#9776;
                 </div>
