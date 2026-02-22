@@ -10,9 +10,9 @@ export const Home = () => {
                     <h1 className="text-5xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
                         Hi, I'm Pukar Adhikari.
                     </h1>
-                    <p className="text-gray-400 text-medium mb:8 max-w-lg mx-auto ">
+                    <p className="text-gray-400 text-medium mb-8 max-w-lg mx-auto ">
                         I am a bachelor student at kathmandu University, pursuing a degree
-                        in Computer Science and Engineering. I am passionate about web development, Machine Learning
+                        in Computer Engineering. I am passionate about web development, Machine Learning
                         particularly in the areas of frontend and backend technologies.I have a keen
                         interest in exploring new technologies and continuously improving my skills.
                     </p>
