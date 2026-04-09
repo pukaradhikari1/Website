@@ -3,7 +3,7 @@ export const About = () => {
 
     const frontendSkills = ["React", "Html", "Css", "Qt", "tailwind", "Bootstrap", "JavaScript"];
 
-    const backendSkills = ["C", "C++", "python", "PHP", "SQlite"];
+    const backendSkills = ["C", "C++", "python", "PHP", "SQlite", "MySQL", "postgreSQL", "Rust"];
     return (
         <section id="about" className=" min-h-screen flex items-center justify-center py-20 ">
             <RevealOnScroll>

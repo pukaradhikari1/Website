@@ -11,12 +11,15 @@ export const Footer = () => {
                 <a href="https://www.linkedin.com/in/pukar-adhikari-225b79296/" target="_blank" rel="noopener noreferrer">
                     <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
                 </a>
-                <a href="https://www.instagram.com/pukaradhikari1?igsh=d2w5bnJ6dGxmbW43" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/pukarradhikari1?igsh=d2w5bnJ6dGxmbW43" target="_blank" rel="noopener noreferrer">
                     <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
                 </a>
 
                 <a href="https://github.com/pukaradhikari1" target="_blank" rel="noopener noreferrer">
                     <img src="https://img.icons8.com/fluent/30/000000/github.png" />
+                </a>
+                <a href="https://x.com/Pukar092" target="_blank" rel="noopener noreferrer">
+                    <img src="https://img.icons8.com/fluency/30/twitterx.png" />
                 </a>
             </div>
             <p className="text-center text-gray-100 font-medium">&copy; 2025 Pukar Adhikari. All rights reservered.</p>
