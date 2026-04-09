@@ -22,7 +22,7 @@ export const Footer = () => {
                     <img src="https://img.icons8.com/fluency/30/twitterx.png" />
                 </a>
             </div>
-            <p className="text-center text-gray-100 font-medium">&copy; 2025 Pukar Adhikari. All rights reservered.</p>
+            <p className="text-center text-gray-100 font-medium">&copy; 2026 Pukar Adhikari. All rights reservered.</p>
         </footer>
     )
 }
